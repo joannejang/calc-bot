@@ -5,4 +5,5 @@ module.exports = (robot) ->
     msg.send "registered the equal sign"
     str = msg.message.text.substring(5)
     msg.send str
-    msg.send "results:", math.eval(str)
+    res = math.eval(str)
+    msg.send "#{res}"
