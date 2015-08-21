@@ -2,5 +2,6 @@ module.exports = (robot) ->
 
  robot.hear /calc/, (msg) ->
     msg.send "registered the equal sign"
-    msg.send msg.message.text.substring(5)
-    msg.send eval(msg.message.text.substring(5))
+    str = msg.message.text.substring(5)
+    msg.send str
+    msg.send eval(str)
