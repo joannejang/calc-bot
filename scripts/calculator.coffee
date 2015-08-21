@@ -1,5 +1,5 @@
 module.exports = (robot) ->
 
- robot.hear /^=/, (msg) ->
+ robot.hear /calc/, (msg) ->
     msg.send "registered the equal sign"
-    msg.send eval(msg.message.text.substring(8))
+    msg.send eval(msg.message.text.substring(5))
