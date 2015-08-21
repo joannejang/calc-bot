@@ -5,6 +5,7 @@
   "author": "jang.joanne@gmail.com",
   "description": "Does calculations.",
   "dependencies": {
+    "mathjs": "^2.1.1",
     "hubot": "^2.15.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.1",

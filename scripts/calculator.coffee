@@ -1,4 +1,4 @@
-math = require("../node_modules/mathjs")
+math = require("mathjs")
 module.exports = (robot) ->
 
  robot.hear /calc/, (msg) ->
