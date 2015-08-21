@@ -1,4 +1,4 @@
 module.exports = (robot) ->
 
- robot.hear /=/, (msg) ->
-    msg.send msg.message.text.substring(1)
+ robot.hear /equals/, (msg) ->
+    msg.send msg.message.text.substring(6)
