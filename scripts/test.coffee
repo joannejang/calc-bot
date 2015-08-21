@@ -1,3 +1,3 @@
 module.exports = (robot) ->
-    robot.hear /hello/, (msg) ->
-        msg.send "Hi Joanne!"
+    robot.respond /who taught you math?/i, (msg) ->
+        msg.send "Joanne did!"
